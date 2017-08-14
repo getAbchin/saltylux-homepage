@@ -1650,7 +1650,7 @@
 
 	a {
 		text-decoration: underline;
-		color: #f32853;
+		color: #F7941D;
 	}
 
 		a:hover {
@@ -1675,7 +1675,8 @@
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 1em 0;
-		text-transform: uppercase;
+		/*font-family: JavaneseText;*/
+		/*text-transform: uppercase;*/
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1821,7 +1822,7 @@
 		padding: 0 2.2em;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 		white-space: nowrap;
 	}
 
@@ -1942,7 +1943,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #f32853;
+			background-color: #F7941D;
 			color: #ffffff !important;
 		}
 
@@ -2117,8 +2118,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #f32853;
-			box-shadow: 0 0 0 1px #f32853;
+			border-color: #F7941D;
+			box-shadow: 0 0 0 1px #F7941D;
 		}
 
 	.select-wrapper {
@@ -2229,8 +2230,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #f32853;
-			box-shadow: 0 0 0 1px #f32853;
+			border-color: #F7941D;
+			box-shadow: 0 0 0 1px #F7941D;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2561,7 +2562,7 @@
 		color: #aaa;
 		position: relative;
 		margin: 0 0 1.5em 0;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 	}
 
 	header h2 + p {
@@ -2788,16 +2789,28 @@
 		box-shadow: 0px 0.0375em 0.125em 0px rgba(0, 0, 0, 0.05);
 		color: #484848;
 		cursor: default;
-		font-size: 1.25em;
-		height: 4.5em;
+		font-size: 1.0em;
+		height: 3.5em;
 		left: 0;
-		line-height: 4.4em;
+		text-align: center;
+		line-height: 3.4em;
 		position: fixed;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 		top: 0;
 		width: 100%;
 		z-index: 10000;
 		z-index: 10001;
+	}
+		
+	#header .logo img{
+		left: 5em;
+		top:0.1em;
+		font-size: 3.4em;
+		width: 2.5em;
+		/*height: 3.4em;*/
+		border: none;
+		color: #8C6239;
+		position: absolute;
 	}
 
 		#header h1 {
@@ -2815,8 +2828,8 @@
 		#header nav {
 			height: inherit;
 			line-height: inherit;
-			position: absolute;
-			right: 1.25em;
+			/*position: absolute;
+			right: 1.25em;*/
 			top: 0;
 			vertical-align: middle;
 		}
@@ -2987,7 +3000,7 @@
 		max-width: 80%;
 		width: 20em;
 		padding: 0.5em 1.25em;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 	}
 
 		#navPanel ul {
@@ -3113,7 +3126,7 @@
 			color: #aaa;
 			font-size: 1.5em;
 			margin-bottom: 1.75em;
-			text-transform: uppercase;
+			/*text-transform: uppercase;*/
 		}
 
 		@media screen and (max-width: 1280px) {
