@@ -32,10 +32,6 @@
 		<!-- Scripts -->
 		<script src="assets/js/w3.js"></script>
 		<script src="assets/js/jquery.min.js"></script>
-		<script>
-			w3.includeHTML();
-		</script>
-
 		<script src="assets/js/skel.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
@@ -44,16 +40,18 @@
 	<body class="landing">
 		<!-- Header -->
 			<!-- <header id="header" class="alt"> -->
-			<div w3-include-html="templates/header.html"></div>
+			<header id="header" w3-include-html="templates/header.html"></header>
+			<script>w3.includeHTML();</script>
 
 			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
 
 		<!-- Banner -->
 			<section id="banner">
 				<h2>to learn, by writing it out.</h2>
-				<p>saltylux</p>
+				<p>salty<span>lux</span></p>
 				<ul class="actions">
-					<li><a href="#" class="button special big">read blog</a></li>
+					<li><a href="blog.html" class="button special big">blogs.read()</a></li>
 				</ul>
 			</section>
 
@@ -63,24 +61,24 @@
 						<div class="row 200%">
 							<div class="6u 12u$(medium)">
 								<header class="major">
-									<h2>Maecenas luctus lectus</h2>
-									<p>Perspiciatis doloremque recusandae dolor</p>
+									<h2>to write out what I know about</h2>
+									<p>the subject as if I were teaching it to a child.</p>
 								</header>
 							</div>
 							<div class="6u$ 12u$(medium)">
-								<p>Write out what I know about the subject as if I were teaching it to a child.<br/> — Feynman technique</p>
-								<p>Dolorum aspernatur maxime libero ratione quidem distinctio, placeat fugiat laborum voluptatum enim neque soluta vel sunt id ex veritatis. Labore rerum, odit sapiente, alias mollitia magnam exercitationem modi amet earum quia atque ipsum voluptas asperiores quas laboriosam.</p>
+								<p> - the Feynman Technique </p>
+								<p>is a Mental Model named after Richard Feynman, a Nobel Prize Winning Physicist. It is designed as a technique to help you learn pretty much learn anything - so understand concepts you don't really get, remember stuff you have already learnt, or study more efficiently.</p>
 							</div>
 						</div>
 					</div>
 				</section>
 
 			<!-- Two -->
-				<section id="two" class="wrapper style2 special">
+				<section id="two" class="wrapper style2">
 					<div class="container">
 						<header class="major">
-							<h2>Fusce ultrices fringilla</h2>
-							<p>Maecenas vitae tellus feugiat eleifend</p>
+							<h2>featuring blogs</h2>
+							<p>where insights are mined.</p>
 						</header>
 						<div class="row 150%">
 							<div class="6u 12u$(xsmall)">
@@ -96,10 +94,10 @@
 								</div>
 							</div>
 						</div>
-						<ul class="actions">
+<!-- 						<ul class="actions">
 							<li><a href="#" class="button special big">Nulla luctus</a></li>
 							<li><a href="#" class="button big">Sed vulputate</a></li>
-						</ul>
+						</ul> -->
 					</div>
 				</section>
 
@@ -159,29 +157,19 @@
 				<section id="four" class="wrapper style3 special">
 					<div class="container">
 						<header class="major">
-							<h2>Aenean elementum ligula</h2>
-							<p>Feugiat sed lorem ipsum magna</p>
+							<h2>to meet up, by getting in touch.</h2>
+							<p>salty<span>lux</span></p>
 						</header>
 						<ul class="actions">
-							<li><a href="#" class="button special big">Get in touch</a></li>
+							<li><a href="#" class="button special big">me.getInTouch()</a></li>
 						</ul>
 					</div>
 				</section>
+			
+			<!-- Footer -->
+			<div w3-include-html="templates/footer.html"></div>
+			<script>w3.includeHTML();</script>
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="container">
-					<ul class="icons">
-						<li><a href="#" class="icon fa-facebook"></a></li>
-						<li><a href="#" class="icon fa-twitter"></a></li>
-						<li><a href="#" class="icon fa-instagram"></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Untitled</li>
-						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
-						<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
-					</ul>
-				</div>
-			</footer>
+
 	</body>
 </html>

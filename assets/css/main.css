@@ -1962,7 +1962,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #f21040;
+				background-color: #F7941D;
 			}
 
 		@media screen and (max-width: 480px) {
@@ -2280,7 +2280,7 @@
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: "Javanese Text";
+			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2565,6 +2565,12 @@
 		position: relative;
 		margin: 0 0 1.5em 0;
 		/*text-transform: uppercase;*/
+	}
+
+	header h2{
+		font-family: "Javanese Text";
+		font-weight: normal;
+		line-height: 1em;
 	}
 
 	header h2 + p {
@@ -3127,16 +3133,22 @@
 		}
 
 		#banner p {
-			color: #aaa;
+			color: #ccc;
 			font-size: 1.5em;
 			margin-bottom: 1.75em;
 			/*text-transform: uppercase;*/
+			font-family: "Javanese Text";
+			font-weight: 50;
+		}
+
+		#banner span, .major span{
+			color: #F7941D;
 		}
 
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 14em 0 11em 0;
+				/*padding: 14em 0 11em 0;*/
 			}
 
 				#banner h2 {
@@ -3148,7 +3160,7 @@
 		@media screen and (max-width: 980px) {
 
 			#banner {
-				padding: 9em 0 7em 0;
+				/*padding: 9em 0 7em 0;*/
 			}
 
 		}
@@ -3156,7 +3168,7 @@
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 6em 2em 6em 2em;
+				/*padding: 6em 2em 6em 2em;*/
 			}
 
 				#banner br {
@@ -3176,7 +3188,7 @@
 		@media screen and (max-width: 480px) {
 
 			#banner {
-				padding: 4em 2em 4em 2em;
+				/*padding: 4em 2em 4em 2em;*/
 			}
 
 		}

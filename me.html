@@ -6,32 +6,48 @@
 -->
 <html>
 	<head>
-		<title>Elements - Spatial by TEMPLATED</title>
+		<title>to learn, by writing it out - saltyLux</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- favicons -->
+		<link rel="apple-touch-icon" sizes="57x57" href="images/icons/favicons/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="images/icons/favicons/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="images/icons/favicons/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="images/icons/favicons/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="images/icons/favicons/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="images/icons/favicons/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="images/icons/favicons/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="images/icons/favicons/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="images/icons/favicons/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="images/icons/favicons/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="images/icons/favicons/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicons/favicon-16x16.png">
+		<link rel="manifest" href="images/icons/favicons/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="images/icons/favicons/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+
+		<!-- Scripts -->
+		<script src="assets/js/w3.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 	</head>
 	<body>
 
 		<!-- Header -->
-			<header id="header">
-				<h1><strong><a href="index.html">Spatial</a></strong> by Templated</h1>
-				<nav id="nav">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="generic.html">Generic</a></li>
-						<li><a href="elements.html">Elements</a></li>
-					</ul>
-				</nav>
-			</header>
+			<div w3-include-html="templates/header.html"></div>
+			<script>w3.includeHTML();</script>
 
-			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
 		<!-- Main -->
 			<section id="main" class="wrapper">
 				<div class="container">
 					<header class="major special">
-						<h2>Elements</h2>
+						<h2>me</h2>
 						<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
 					</header>
 
@@ -385,27 +401,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				</div>
 			</section>
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="container">
-					<ul class="icons">
-						<li><a href="#" class="icon fa-facebook"></a></li>
-						<li><a href="#" class="icon fa-twitter"></a></li>
-						<li><a href="#" class="icon fa-instagram"></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Untitled</li>
-						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
-						<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
-					</ul>
-				</div>
-			</footer>
+			<!-- Footer -->
+			<div w3-include-html="templates/footer.html"></div>
+			<script>w3.includeHTML();</script>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+
 
 	</body>
 </html>
