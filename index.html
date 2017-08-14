@@ -30,9 +30,10 @@
 		<meta name="theme-color" content="#ffffff">
 
 		<!-- Scripts -->
+		<script src="assets/js/w3.js"></script>
 		<script src="assets/js/jquery.min.js"></script>
 		<script>
-			$(function(){$("#headerDiv").load("templates/header.html");});
+			w3.includeHTML();
 		</script>
 
 		<script src="assets/js/skel.min.js"></script>
@@ -43,8 +44,7 @@
 	<body class="landing">
 		<!-- Header -->
 			<!-- <header id="header" class="alt"> -->
-
-			<div id="headerDiv"></div>
+			<div w3-include-html="templates/header.html"></div>
 
 			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
