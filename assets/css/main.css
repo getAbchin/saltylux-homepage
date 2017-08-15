@@ -3171,7 +3171,7 @@
 			font-weight: 50;
 		}
 
-		#banner span, .major span{
+		#banner p span, .major span{
 			color: #F7941D;
 			font-family: 'Javanese Text',   serif;
 		}
