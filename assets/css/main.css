@@ -2569,7 +2569,7 @@
 
 	header h2{
 		font-family: "Javanese Text";
-		font-weight: normal;
+		font-weight: 100;
 		line-height: 1em;
 	}
 
@@ -2817,10 +2817,11 @@
 		/*height: 3.4em;*/
 		border: none;
 		color: #8C6239;
-		position: absolute;
+		position: fixed;
 	}
 
 	#mobile-header .logo img{
+		margin-left: 0.25em;
 		right: 0em;
 	}
 
@@ -2953,6 +2954,7 @@
 		width: 100%;
 		height: 3.5em;
 		background: #fff;
+		top: 0;
 		position: fixed;
 		z-index: 9999;
 		display: block;
@@ -2966,7 +2968,8 @@
 		position: fixed;
 		z-index: 10000;
 		top: 0;
-		width: 50%;
+		width: 4em;
+		color:#aaa;	
 		display: none;
 		/*background: #fff;*/
 	}
@@ -2975,7 +2978,8 @@
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			position: fixed;
-			z-index: 10001;			
+			z-index: 10001;
+			color:#aaa;			
 			/*background: #fff;*/
 			font-family: FontAwesome;
 			font-style: normal;
@@ -2992,9 +2996,10 @@
 		}
 
 		.navPanelToggle *:before {
-			background: rgba(144, 144, 144, 0.65);
+			background: #fff; /*rgba(144, 144, 144, 0.65);*/
+			border: 1px solid #aaa;
 			border-radius: 4px;
-			color: #fff;
+			color:#aaa;	
 			display: block;
 			font-size: 16px;
 			height: 2.25em;
