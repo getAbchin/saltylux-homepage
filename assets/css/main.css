@@ -2817,7 +2817,7 @@
 		/*height: 3.4em;*/
 		border: none;
 		color: #8C6239;
-		position: fixed;
+		position: absolute;
 	}
 
 	#mobile-header .logo img{
