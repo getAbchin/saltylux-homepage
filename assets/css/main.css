@@ -1,6 +1,7 @@
 @import url(font-awesome.min.css);
 @import url(javanese-text.min.css);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+/*@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);*/
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Prata');
 
 /*
 	Spatial by TEMPLATED
@@ -1603,8 +1604,9 @@
 	}
 
 	body, input, select, textarea {
-		/*font-family: "Javanese Text";*/
-		font-family: "Raleway", Arial, Helvetica, sans-serif;
+		/*font-family: 'Prata', serif;*/
+		/*font-family: "Raleway", Arial, Helvetica, sans-serif;*/
+		font-family: 'Lora', serif;
 		font-size: 13pt;
 		font-weight: 400;
 		line-height: 2em;
@@ -2134,7 +2136,7 @@
 		.select-wrapper:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: "Javanese Text";
+			font-family: 'Prata', serif;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2200,7 +2202,7 @@
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: "Javanese Text";
+				font-family: 'Prata', serif;
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -2568,7 +2570,7 @@
 	}
 
 	header h2{
-		font-family: "Javanese Text";
+		font-family: 'Prata', serif;
 		font-weight: 100;
 		line-height: 1em;
 	}
@@ -2607,6 +2609,7 @@
 		}
 
 		header.major p {
+			font-family: 'Javanese Text',   serif;
 			font-size: 1.7em;
 			margin-bottom: 0;
 		}
@@ -3154,8 +3157,9 @@
 			font-size: 3.5em;
 			line-height: 1.35;
 			margin-bottom: 0.5em;
-			font-weight: 100;
-			font-family: "Javanese Text";
+			font-weight: 700;
+			font-style: italic;
+			font-family: 'Lora', serif;
 		}
 
 		#banner p {
@@ -3163,12 +3167,13 @@
 			font-size: 1.5em;
 			margin-bottom: 1.75em;
 			/*text-transform: uppercase;*/
-			font-family: "Javanese Text";
+			font-family: 'Javanese Text',     serif;
 			font-weight: 50;
 		}
 
 		#banner span, .major span{
 			color: #F7941D;
+			font-family: 'Javanese Text',   serif;
 		}
 
 		@media screen and (max-width: 1280px) {
