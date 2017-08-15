@@ -4,9 +4,9 @@
 	font-family: 'Javanese Text';
 	src: url('JavaneseText.eot');
 	src: url('JavaneseText.eot?#iefix') format('embedded-opentype'),
-		url('JavaneseText.woff2') format('woff2'),
+		/*url('JavaneseText.woff2') format('woff2'),
 		url('JavaneseText.woff') format('woff'),
-		url('JavaneseText.ttf') format('truetype'),
+		url('JavaneseText.ttf') format('truetype'),*/
 		url('JavaneseText.svg#JavaneseText') format('svg');
 	font-weight: normal;
 	font-style: normal;
