@@ -63,6 +63,21 @@
 				</ul>
 			</section>
 
+			<!-- Set banner's height as window height -->
+			<script type="text/javascript"> 
+	        function resize()
+	            {
+	                var heights = window.innerHeight;
+	                document.getElementById("banner").style.height = heights + "px";
+	                var padding = (heights-200)/2;
+	                document.getElementById("banner").style.padding = padding+"px 0px "+padding+"px 0px";
+	            }
+	            resize();
+	            window.onresize = function() {
+	                resize();
+	            };
+        	</script> 
+
 			<!-- One -->
 				<section id="one" class="wrapper style1">
 					<div class="container 75%">

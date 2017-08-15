@@ -3132,13 +3132,20 @@
 		}
 
 /* Banner */
-
 	body.is-touch #banner {
 		background-attachment: scroll;
 	}
 
+	body .landing{
+		display: flex;
+  		flex-flow: column;
+  		height: 100%;	
+	}
+
 	#banner {
-		padding: 16em 0 13em 0;
+		height: 65em;
+		flex: 0 1 auto;
+		padding: 32em 0 13em 0;
 		background-attachment: fixed;
 		background-image: url("images/overlay.png"), url("../../images/banner2-1.jpg");
 		background-position: center top;
@@ -3149,6 +3156,12 @@
 
 		#banner:last-child {
 			margin-bottom: 0;
+		}
+
+		@keyframes caret {
+		  50% {
+		    border-color: transparent;
+		  }
 		}
 
 		#banner h2 {
