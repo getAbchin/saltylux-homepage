@@ -77,6 +77,8 @@
 	                	var padding_top = 2*(heights-200)/3;
 	                	var padding_bottom = (heights-200)/3;	                	
 	                }
+	                padding_top = Math.max(padding_top,100);
+	                padding_bottom = Math.max(padding_bottom,100);
 	                
 	                document.getElementById("banner").style.padding = padding_top+"px 0px "+padding_bottom+"px 0px";
 	            }
